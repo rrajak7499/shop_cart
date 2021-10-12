@@ -6,7 +6,8 @@ export default function SimpleSlider() {
     dots: true,
     infinite: true,
     speed: 200,
-    // slidesToShow: 1,
+    autoplay: true,
+    slidesToShow: 1,
     slidesToScroll: 1
   };
   return (
