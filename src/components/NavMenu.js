@@ -12,7 +12,7 @@ export default function NavMenu(props) {
                         </div>
                     </div>
                     
-                <div class="xtXmba">{props.title}</div>
+                <div className="xtXmba">{props.title}</div>
                 </div>
             </div>
             

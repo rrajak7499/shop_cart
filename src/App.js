@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import NavMenu from './components/NavMenu';
+import Scroller from './components/Scroller';
 import Navbar from './Navbar';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <NavMenu title="Travel" link="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100"/>
         <NavMenu title="Toys & More" link="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"/>
       </div>
+      <Scroller />
     </>
   );
 }
