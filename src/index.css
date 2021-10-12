@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.appLogo {
+  height: 50px;
+  width: 170px;
+}
+
+.cart {
+  height: 32px;
+  width: 32px;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 302px;
+}
+
+.button {
+  padding: 0;
+  margin: 0 30px;
+  width: 125px;
+  height: 30px;
+}
+
+.d-flex.cart-box {
+  width: 125px;
+  height: 30px;
+  align-items: center;
+}
+
+img.cart-icon {
+  height: 20px;
+  width: 20px;
+}
+
+p.cart-text {
+  font-size: 1rem;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
